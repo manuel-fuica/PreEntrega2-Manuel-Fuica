@@ -25,22 +25,36 @@ header div nav ul{
 header div nav ul li a{
     color: white;
     text-decoration: none;
-}    
+}   
+.img-pricipal-index{
+    background-color: #e0f2f1;
+}
 
+.servicios-ofrecidos{
+    background-color: #e0f2f1;
+}
 h2{
     text-align: center;
-    margin-top: 30px;
-    text-decoration: underline;
+    padding-top: 30px;
     text-decoration-color: #828282;
     font-family: helvetica neue, arial, sans-serif;
     font-weight: bold;
     text-underline-offset: 0.5em;
     color: #26B6C6;
 }
+
+.hr-presentacion{
+    width: 40%;
+    border: 2px solid;
+    color: #b71c1c;
+    margin-left: 30%;
+    border-radius: 2px;
+    margin-top: 6px;
+}
 .imagenTecnologia {
 
     width: 100%;
-    height: 300px;
+    height: 400px;
 }
 
 /* parrafo centrado al medio de la pagina */
@@ -49,42 +63,59 @@ h2{
     margin-top: 20px;
     font-size: 20px;
     color: #424242;
+    font-family: "Open Sans", sans-serif;
 }
 
 .parrafo p{
     padding: 2px;
 }
 
-.titulo-servicios-index{
-    display: flex;
-    margin-left: 50px;
-}  
-
 main .servicios-ofrecidos{
     display: flex;
-    
 }
+
 
 .parrafo-servicios{
     text-align: center;
     margin-top: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
     font-size: 20px;
-    font-family: tahoma,sans-serif;
+    width: 60%;
+    line-height: 1.8;
 }
+
+.imagen-servicios-index img{
+    width: 760px;
+    height: 350px;
+}
+
 .tituloSecundario {
-    margin-top: 100px;
+    margin-top: 10px;
     margin-left: 20px;
-    padding-bottom: 20px;
-    text-decoration: underline;
 }
+
+.hr-titulo-secundario{
+    width: 29%;
+    border: 2px solid;
+    color: #e53935;
+    margin-left: 36%;
+    border-radius: 2px;
+}
+
 .imagenesClientes img{
     width: 50px;
-    display: inline;
     width: 200px;
     height: 100px;
     margin: 5px;
+    gap: 30px;
     border-radius: 10px;
+
     
+}
+
+footer{
+    background-color: #e0f2f1;
 }
 
 h3 {
@@ -126,14 +157,13 @@ h3 {
     padding-top: 10px;
 }
 
-.contenedorFinal {
-    position: relative;
+.contenedor-final {
+    display: flex;
+    background-color: #26B6C6;
 }
 
 .iconos {
-    position: absolute;
-    left: 860px;
-    top: 0;
+    
 }
 
 .iconos img{
@@ -144,12 +174,12 @@ h3 {
 }
 
 .boton-contacto a {
+    display: flex;
     background-color: #ffb74d;
     font-size: medium;
     color: black;
     width: 300px;
     height: 40px;
-    position: absolute;
     bottom: 0;
     padding-top: 10px;
     border-radius: 10px;
