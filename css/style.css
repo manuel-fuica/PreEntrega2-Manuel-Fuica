@@ -5,29 +5,8 @@
     list-style: none;
     }
 
-header{
+header div nav div div ul li .dropdown-menu{
     background-color: #26B6C6;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-
-header div nav ul{
-        display: flex;
-        gap: 30px;
-        
-}
-
-.logo{
-    margin-right: 220px;
-}
-
-header div nav ul li a{
-    color: white;
-    text-decoration: none;
-}   
-.img-pricipal-index{
-    background-color: #e0f2f1;
 }
 
 .servicios-ofrecidos{
@@ -51,44 +30,6 @@ h2{
     border-radius: 2px;
     margin-top: 6px;
 }
-.imagenTecnologia {
-
-    width: 100%;
-    height: 400px;
-}
-
-/* parrafo centrado al medio de la pagina */
-.parrafo {
-    text-align: center;
-    margin-top: 20px;
-    font-size: 20px;
-    color: #424242;
-    font-family: "Open Sans", sans-serif;
-}
-
-.parrafo p{
-    padding: 2px;
-}
-
-main .servicios-ofrecidos{
-    display: flex;
-}
-
-
-.parrafo-servicios{
-    text-align: center;
-    margin-top: 30px;
-    padding-left: 10px;
-    padding-right: 10px;
-    font-size: 20px;
-    width: 60%;
-    line-height: 1.8;
-}
-
-.imagen-servicios-index img{
-    width: 760px;
-    height: 350px;
-}
 
 .tituloSecundario {
     margin-top: 10px;
@@ -103,19 +44,11 @@ main .servicios-ofrecidos{
     border-radius: 2px;
 }
 
-.imagenesClientes img{
-    width: 50px;
-    width: 200px;
-    height: 100px;
+.imagenes-clientes img{
+    width: 300px;
+    height: 160px;
     margin: 5px;
-    gap: 30px;
-    border-radius: 10px;
-
-    
-}
-
-footer{
-    background-color: #e0f2f1;
+    gap: 30px;    
 }
 
 h3 {
@@ -123,18 +56,21 @@ h3 {
 }
 
 .tituloDirecciones {
-    text-align: center;
-    background-color: #42a5f5;
-    width: 450px;
+    text-align: start;
     height: 50px;
-    position: static;
-    border-radius: 15px;
-    margin-left: 450px;
+    margin-left: 150px;
     padding-top: 8px;
-    color: whitesmoke;
+    color: black;
     top: 850px;
     text-decoration: none;
-    
+}
+
+.hr-titulo-direcciones{
+    width: 19%;
+    border: 2px solid;
+    color: #e53935;
+    margin-left: 10%;
+    border-radius: 2px;
 }
 
 .mapaDirecciones iframe{
@@ -144,17 +80,27 @@ h3 {
     margin-top: 30px;
 }
 
+.mapas-iframe{
+    display: flex;
+    justify-content: space-around;
+}
+
 .direcciones   h3{
-    
     padding-top: 8px;
 }
-.tituloDerechosReservados{
-    text-align: center;
+.titulo-derechos-reservados{
+    justify-items: center;
     font-size: 20px;
-    color: white;
+    color: black;
     margin: 2px;
     height: 40px;
     padding-top: 10px;
+}
+
+.titulo-derechos{
+    display: flex;
+    justify-content: end;
+    width: 90rem;
 }
 
 .contenedor-final {
@@ -162,31 +108,25 @@ h3 {
     background-color: #26B6C6;
 }
 
-.iconos {
-    
-}
-
 .iconos img{
     width: 30px;
     margin-right: 5px;
     bottom: 0;
-    padding-top: 5px;
+    padding-top: 5px;    
 }
 
-.boton-contacto a {
-    display: flex;
-    background-color: #ffb74d;
-    font-size: medium;
-    color: black;
-    width: 300px;
-    height: 40px;
-    bottom: 0;
-    padding-top: 10px;
-    border-radius: 10px;
-    left: 110px;
-    text-decoration: none;
-    font-weight: bold;
+.iconos{
+    text-align: end;
+    width: 50%;
 }
+
+.boton-contacto{
+    width: 350px;
+    background-color: #ffb74d;
+    font-weight: bold;
+    
+}
+
 
 .imagen-origenes img{
     height: 400px;

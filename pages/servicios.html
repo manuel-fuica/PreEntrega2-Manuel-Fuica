@@ -5,22 +5,46 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SERVICIOS</title>
     <link rel="stylesheet" href="../css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 </head>
-<body>
-    <header>
-        <div class="logo">
-            <img class="logo" src="../Imagenes/logo1.png" alt="logo">
-        </div>
-        <div class="menu">
-            <nav class="menu">
-                <ul>
-                    <li><a href="../index.html">HOME</a></li>
-                    <li><a href="./manet.html">MANET</a></li>
-                    <li><a href="./servicios.html">SERVICIOS</a></li>
-                    <li><a href="./clientes.html">CLIENTES</a></li>
-                    <li><a href="./contacto.html">CONTACTO</a></li>
-                </ul>
-            </nav>
+<body class="bg-info">
+    <header class="container">
+        <div class="row">
+            <div class="col 4">
+                <img class="logo" src="../Imagenes/manet-sin-fondo.png" alt="Imagen Tecnologia y Abastecimiento">
+            </div>
+                <nav class="navbar navbar-expand-lg col-5">
+                    <div class="container-fluid">
+                        <a class="navbar-brand" href="../index.html">HOME</a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="../pages/manet.html">MANET</a>
+                                </li>
+                                <li class="nav-item">
+                                <a class="nav-link" href="../pages/clientes.html">CLIENTES</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="../pages/servicios.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">SERVICIOS
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="../pages/servicios.html">BPO DE PROCESOS DE ABASTECIMIENTO</a></li>
+                                    <li><hr class="dropdown-divider"></li>
+                                    <li><a class="dropdown-item" href="../pages/servicios.html">CONSULTORIA</a></li>
+                                    <li><hr class="dropdown-divider"></li>
+                                    <li><a class="dropdown-item" href="../pages/servicios.html">SOLUCIONES TECNOLOGICAS</a></li>
+                                </ul>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="../pages/contacto.html">CONTACTO</a>
+                                    </li>
+                                </li>              
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
         </div>
     </header>
     <main>
@@ -54,28 +78,32 @@
                 dolor sit amet consectetur adipisicing elit. Odio a sint quae molestiae, est magni temporibus omnis suscipit debitis tempore officia aliquam animi eligendi cumque aut eveniet quibusdam, explicabo delectus.
             </p>
     </main>
-    <footer>
-        <h2 class="tituloDirecciones">VISITE NUESTRAS OFICINAS</h2>
+    <footer class="bg-white">
+        <h2 class="tituloDirecciones">VISITE NUESTRAS OFICINAS :</h2>
+        <hr class="hr-titulo-direcciones">
             <section class="mapaDirecciones">
                     <div class="direcciones">
                         <h3>Santiago: Vitacura 2909, Oficina #501</h3>
                         <h3>Antofagasta: Gral. Borgoño 934, Oficina 602</h3>
                         <h3>Calama: Avenida Chorrillos 1677, Oficina 308</h3>
                     </div>
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3330.416732493819!2d-70.60524642354997!3d-33.412378095564584!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662cf41419b050b%3A0x7841168a137f28c9!2sAv%20Vitacura%202909%2C%207550024%20Las%20Condes%2C%20Regi%C3%B3n%20Metropolitana!5e0!3m2!1ses-419!2scl!4v1702416210837!5m2!1ses-419!2scl" width="400" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3654.2583011840434!2d-70.40572692388074!3d-23.6667190654728!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x96afd54d6d99969f%3A0xaec818d51969b366!2sGral.%20Borgo%C3%B1o%20934%2C%201270242%20Antofagasta!5e0!3m2!1ses-419!2scl!4v1702416313829!5m2!1ses-419!2scl" width="400" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3687.370680954239!2d-68.93135692391567!3d-22.452700521801887!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x96ac09c095ad8cf9%3A0xfa67896f6a0e7b8d!2sAv.%20Chorrillos%201677%2C%201392981%20Calama%2C%20Antofagasta!5e0!3m2!1ses-419!2scl!4v1702416421621!5m2!1ses-419!2scl" width="400" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                <div class="contenedorFinal">
-                    <h2 class="tituloDerechosReservados">MANET 2023 Todos los derechos reservados</h2>
-                    <div class="iconos">
-                        <img src="../Imagenes/iconoLinkedin.png" alt="iconoLinkedin">
-                        <img src="../Imagenes/iconoMail.png" alt="iconoMail">
-                        <button class="boton-contacto">
-                            <a href="../pages/contacto.html">CONTACTENOS</a>
-                        </button>
-                    </div>
-                </div>
+                        <div class="mapas-iframe">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3330.416732493819!2d-70.60524642354997!3d-33.412378095564584!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662cf41419b050b%3A0x7841168a137f28c9!2sAv%20Vitacura%202909%2C%207550024%20Las%20Condes%2C%20Regi%C3%B3n%20Metropolitana!5e0!3m2!1ses-419!2scl!4v1702416210837!5m2!1ses-419!2scl" width="600" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3654.2583011840434!2d-70.40572692388074!3d-23.6667190654728!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x96afd54d6d99969f%3A0xaec818d51969b366!2sGral.%20Borgo%C3%B1o%20934%2C%201270242%20Antofagasta!5e0!3m2!1ses-419!2scl!4v1702416313829!5m2!1ses-419!2scl" width="600" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3687.370680954239!2d-68.93135692391567!3d-22.452700521801887!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x96ac09c095ad8cf9%3A0xfa67896f6a0e7b8d!2sAv.%20Chorrillos%201677%2C%201392981%20Calama%2C%20Antofagasta!5e0!3m2!1ses-419!2scl!4v1702416421621!5m2!1ses-419!2scl" width="600" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                    <div class="contenedor-final">
+                        <div class="titulo-derechos">
+                            <h2 class="titulo-derechos-reservados">MANET 2023 Todos los derechos reservados</h2>
+                        </div>
+                        <div class="iconos">
+                            <img src="../Imagenes/iconoLinkedin.png" alt="iconoLinkedin">
+                            <img src="../Imagenes/iconoMail.png" alt="iconoMail">
+                        </div>
+                            <button class="boton-contacto">CONTACTO</button>
+                        </div>
             </section>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
 </html>
