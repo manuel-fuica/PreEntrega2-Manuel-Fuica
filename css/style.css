@@ -53,24 +53,17 @@ h2{
 
 h3 {
     text-align: center;
+    
 }
 
 .tituloDirecciones {
     text-align: start;
     height: 50px;
-    margin-left: 150px;
+    margin-left: 10px;
     padding-top: 8px;
     color: black;
     top: 850px;
     text-decoration: none;
-}
-
-.hr-titulo-direcciones{
-    width: 19%;
-    border: 2px solid;
-    color: #e53935;
-    margin-left: 10%;
-    border-radius: 2px;
 }
 
 .mapaDirecciones iframe{
@@ -87,6 +80,7 @@ h3 {
 
 .direcciones   h3{
     padding-top: 8px;
+    margin-left: 100px;
 }
 .titulo-derechos-reservados{
     justify-items: center;
@@ -342,35 +336,14 @@ h3 {
 }
 
 .imagen-contacto  img{
-    height: 430px;
-    width: 1270px;
-    left: 570px;
-    top: 150px;
-    border-radius: 15px;
-    margin: 2px;
-    position: static;
-    border-radius: 15px;
-}
-
-.titulo-contacto {
-    margin-left: 50px;
-    margin-top: 80px;
-    height: 30px;
-}
-.video-youtube iframe{
-    border-radius: 15px;
-    position: absolute;
-    margin-left: 635px;
-    margin-bottom: 20px;
-    top: 720px;
+    width: 100%;
+    height: 60vh;
+    
 }
 
 .parrafo-contacto {
-    width: 850px;
-    position: absolute;
-    left: 400px;
-    top: 600px;
-    margin-bottom: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
 }
 
 .contenedor-formulario {
@@ -379,29 +352,32 @@ h3 {
     margin-top: 80px;
     margin-bottom: 80px;
 }
+
 .formulario input {
     width: 520px;
     height: 40px;
     margin: 10px;
+    padding-left: 40px;
     
 }
 
 .formulario textarea {
     width: 520px;
     margin: 10px;
+    padding-left: 40px;
 }
 
 .formulario label {
     text-decoration: underline;
+    margin-left: 20px;
 }
 
 .boton-enviar {
-    width: 90px;
-    height: 40px;
-    border-radius: 15px;
-    margin-left: 500px;
-    background-color: #ffb74d;
-    font-weight: bolder;
-    color: black;
+    text-align: center;
+    justify-content: center;
+    font-weight: bold !important;
+    width: 520px;
+    margin: 10px;
+    
 }
 

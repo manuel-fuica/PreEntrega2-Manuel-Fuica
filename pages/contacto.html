@@ -47,7 +47,7 @@
                 </nav>
         </div>
     </header>
-    <main>
+    <main class="bg-light">
 
         <div class="imagen-contacto">
             <img src="../Imagenes/imagenContacto1.jpg" alt="">
@@ -57,24 +57,22 @@
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia eligendi eveniet consequuntur consequatur natus optio fugiat! In reprehenderit fugiat ea nulla, voluptatem quidem ipsum odio placeat perferendis atque, adipisci sed.
             Enim, facilis necessitatibus reprehenderit, quia neque architecto, eos voluptatem ut illo nobis nesciunt quas animi nisi facere? Maxime aperiam vitae culpa, accusantium pariatur illo vel mollitia eos illum, itaque quia.
         </P>
-        <div class="contenedor-formulario">
-            <form class="formulario">
-                <label for="nombre">Nombre Completo:</label>	
-                <input type="text" placeholder="NOMBRE COMPLETO"/>
-                <label for="mail">Correo:</label>	
-                <input type="mail" placeholder="EMAIL" />
-                <textarea class="asunto" cols="30" rows="10"></textarea>
-        </form>
-        <button class="boton-enviar">ENVIAR</button>
-        </div>
-        <div class="video-youtube">
-            <iframe width="635" height="360" src="https://www.youtube.com/embed/eBTqQk6dQs8" title="Soluciones Tecnológicas" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-        </div>
-        
+            <div class="contenedor-contacto-video row col-12">
+                <div class="contenedor-formulario row col-12">
+                    <form class="formulario col-6">
+                        <label class="nombre" for="nombre">Nombre Completo:</label>	
+                        <input type="text" placeholder="NOMBRE COMPLETO"/>
+                        <label class="mail" for="mail">Correo:</label>	
+                        <input type="mail" placeholder="EMAIL" />
+                        <textarea class="asunto" cols="30" rows="10"></textarea>
+                        <a href="" class="btn btn-warning boton-enviar">ENVIAR</a>
+                    </form>
+                        <iframe class="row col-6"width="" height="" src="https://www.youtube.com/embed/eBTqQk6dQs8" title="Soluciones Tecnológicas" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+            </div>
     </main>
     <footer class="bg-white">
         <h2 class="tituloDirecciones">VISITE NUESTRAS OFICINAS :</h2>
-        <hr class="hr-titulo-direcciones">
             <section class="mapaDirecciones">
                     <div class="direcciones">
                         <h3>Santiago: Vitacura 2909, Oficina #501</h3>
