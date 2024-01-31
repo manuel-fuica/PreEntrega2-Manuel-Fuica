@@ -90,9 +90,8 @@ h3 {
     padding-top: 8px;
     margin-left: 100px;
 }
-.titulo-derechos-reservados{
-    justify-items: center;
-    font-size: 20px;
+.titulo-derechos-reservados {
+    font-size: 15px;
     color: black;
     margin: 2px;
     height: 40px;
@@ -120,6 +119,7 @@ h3 {
 .iconos{
     text-align: end;
     width: 50%;
+    display: none;
 }
 
 .boton-contacto{
@@ -178,26 +178,20 @@ h3 {
     margin: 35px;
 }
 .imagen-servicios-tecnologicos img {
-    height: 430px;
-    width: 1270px;
-    border-radius: 15px;
-    margin: 2px;
-    position: relative;
-    border-radius: 15px;
+    width: 100%;
+    height: 60vh;
 }
 
 .titulo-servicios {
     text-align: center;
     background-color: #42a5f5;
     color: whitesmoke;
-    position: absolute;
     top: 470px;
     left: 450px;
-    width: 450px;
+    width: 100%;
     height: 50px;
     padding-top: 15px;
     padding-bottom: 15px;
-    border-radius: 15px;
     text-decoration: none;
 }
 
@@ -207,67 +201,59 @@ h3 {
     padding-bottom: 20px;
 }
 
-.imagenes-servicios img {
-    width: 400px;
-    height: 300px;
-    margin: 10px;
-    border-radius: 15px;
-}
+
 .abastecimiento {
-    text-decoration: none;
-    position: absolute;
-    background-color: #42a5f5;
-    width: 380px;
-    text-align: center;
-    border-radius: 10px;
-    top: 930px;
+    display: flex;
+    justify-content: center;
+    text-decoration: underline;
+    color: #26B6C6;
+    margin-bottom: 40px
 }
 
 .consultoria {
-    text-decoration: none;
-    position: absolute;
-    background-color: #42a5f5;
-    width: 380px;
-    height: 55px;
-    padding: 10px;
-    text-align: center;
-    border-radius: 10px;
-    top: 930px;
-    left: 425px;
+    display: flex;
+    justify-content: center;
+    text-decoration: underline;
+    color: #26B6C6;
+    margin-bottom: 40px;
+}
+
+.img-abastecimiento{
+    width: 100%;
+    height: 50vh;
+    margin-left: 20px;
+}
+
+.img-consultoria{
+    width: 100%;
+    height: 50vh;
+    margin-left: 20px;
 }
 
 .soluciones-tecnologicas {
-    text-decoration: none;
-    position: absolute;
-    background-color: #42a5f5;
-    width: 380px;
-    height: 55px;
-    padding: 10px;
-    text-align: center;
-    border-radius: 10px;
-    top: 930px;
-    left: 850px;
+    color: #26B6C6;
+    margin-bottom: 50px;
+    text-decoration: underline;
+}
+
+.imagen-soluciones-tecnologicas img{
+    width: 100%;
+    height: 60vh;
+    margin-right: 0;
+    padding-right: 0;
 }
 
 .parrafo-abastecimiento {
-    width: 400px;
-    margin: 20px;
+    margin-left: 20px;
+
 }
 
 .parrafo-consultoria {
-    width: 400px;
-    margin: 20px;
-    position: absolute;
-    left: 425px;
-    top: 1025px;
+    margin-left: 20px;
 }
 
-.parrafo-soluciones-tecnologicas {
-    width: 400px;
-    margin: 20px;
-    position: absolute;
-    left: 850px;
-    top: 1025px;
+.parrafo-soluciones-tecnologicas{
+    margin-left: 50px;
 }
 
 .titulo-clientes{
@@ -280,11 +266,13 @@ h3 {
     font-size: 2em;
 }
 
-.imagen-principal-clientes img{
-    border-radius: 15px;
-    padding-right: 0;
+.contenedor-clientes .imagen-principal-clientes{
+    height: 70vh;
 }
 
+.imagen-principal-clientes img{
+    width: 95%;
+}
 .main-clientes{
     padding-right: 0;
     margin-right: 0;
@@ -299,9 +287,9 @@ h3 {
     padding-top: 30px;
 }
 
-.parrafo-clientes  {
-    padding-left: 50px;
-    padding-top: 50px;
+.contenedor-clientes .parrafo-clientes{
+    padding-left: 40px;
+
 }
 
 .casos-exito {
@@ -309,23 +297,13 @@ h3 {
     padding-left: 10px;
 }
 
-.caso-uno p{
-    padding-left: 80px;
-    padding-top: 20px;
-}
-
-.caso-dos p{
-    padding-top: 20px;
-}
-.caso-tres p {
-    padding-left: 80px;
-    padding-top: 100px;
+.caso-uno p, .caso-dos p, .caso-tres p{
+    padding: 0 0 0 30px;
 }
 
 .imagen-caso1 img {
     width: 100%;
     height: 220px;
-    border-radius: 15px;
     padding-bottom: 20px;
     padding-top: 20px;
 }
@@ -334,13 +312,10 @@ h3 {
     width: 100%;
     height: 180px;
     padding-top: 20px;
-    border-radius: 15px;
 }
 
 .imagen-caso3 img{
-    width: 100%;
-    
-    border-radius: 15px;
+    width: 70%;
 }
 
 .imagen-contacto  img{
@@ -352,17 +327,12 @@ h3 {
 .parrafo-contacto {
     padding-left: 40px;
     padding-right: 40px;
+    margin-bottom: 50px;
 }
 
-.contenedor-formulario {
-    width: 400px;
-    margin: 10px;
-    margin-top: 80px;
-    margin-bottom: 80px;
-}
 
 .formulario input {
-    width: 520px;
+    width: 420px;
     height: 40px;
     margin: 10px;
     padding-left: 40px;
@@ -370,7 +340,7 @@ h3 {
 }
 
 .formulario textarea {
-    width: 520px;
+    width: 420px;
     margin: 10px;
     padding-left: 40px;
 }
@@ -378,18 +348,23 @@ h3 {
 .formulario label {
     text-decoration: underline;
     margin-left: 20px;
+    display: block;
+}
+
+.contenedor-formulario .video-contacto{
+    display: none;
 }
 
 .boton-enviar {
     text-align: center;
     justify-content: center;
     font-weight: bold !important;
-    width: 520px;
+    width: 420px;
     margin: 10px;
     
 }
 
-/* estilos para mobile para home */
+/* estilos mobile para home */
 
 @media screen and (min-width:600px){
     .mapas-iframe .mapa-santiago, .mapas-iframe .mapa-calama{
@@ -399,5 +374,40 @@ h3 {
     .imagenes-clientes .imagen-pucobre, .imagen-anglo, .imagen-kinross{
         display: inline;
     }
+
+    .iconos{
+        display: inline;
+    }
+
+    
 }
 
+@media screen and (max-width:599px){
+
+    .imagen-principal-clientes img{
+        width: 100%;
+    }
+
+    .logo{
+        width: 60%;
+    }
+}
+
+/* estilos mobile para contacto */
+
+@media screen and (min-width:600px){
+
+    .contenedor-formulario .video-contacto{
+        display: inline;
+        border-radius: 25px;
+    }
+
+    .formulario input {
+        width: 520px;
+    }
+
+    .formulario textarea, .boton-enviar {
+        width: 520px;
+    }
+
+}
