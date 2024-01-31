@@ -51,6 +51,10 @@ h2{
     gap: 30px;    
 }
 
+.imagenes-clientes .imagen-pucobre, .imagen-anglo, .imagen-kinross{
+    display: none;
+}
+
 h3 {
     text-align: center;
     
@@ -76,6 +80,10 @@ h3 {
 .mapas-iframe{
     display: flex;
     justify-content: space-around;
+}
+
+.mapas-iframe .mapa-santiago, .mapas-iframe .mapa-calama{
+    display: none;
 }
 
 .direcciones   h3{
@@ -379,5 +387,17 @@ h3 {
     width: 520px;
     margin: 10px;
     
+}
+
+/* estilos para mobile para home */
+
+@media screen and (min-width:600px){
+    .mapas-iframe .mapa-santiago, .mapas-iframe .mapa-calama{
+        display: block;
+    }
+
+    .imagenes-clientes .imagen-pucobre, .imagen-anglo, .imagen-kinross{
+        display: inline;
+    }
 }
 
