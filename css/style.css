@@ -196,4 +196,201 @@ h3 {
   text-decoration: none;
 }
 
+.servicios p {
+  padding-top: 40px;
+  margin-left: 30px;
+  padding-bottom: 20px;
+}
+
+.abastecimiento {
+  display: flex;
+  justify-content: center;
+  text-decoration: underline;
+  color: #26B6C6;
+  margin-bottom: 40px;
+}
+
+.consultoria {
+  display: flex;
+  justify-content: center;
+  text-decoration: underline;
+  color: #26B6C6;
+  margin-bottom: 40px;
+}
+
+.img-abastecimiento {
+  width: 100%;
+  height: 50vh;
+  margin-left: 20px;
+}
+
+.img-consultoria {
+  width: 100%;
+  height: 50vh;
+  margin-left: 20px;
+}
+
+.soluciones-tecnologicas {
+  color: #26B6C6;
+  margin-bottom: 50px;
+  text-decoration: underline;
+}
+
+.imagen-soluciones-tecnologicas img {
+  width: 100%;
+  height: 60vh;
+  margin-right: 0;
+  padding-right: 0;
+}
+
+.parrafo-abastecimiento {
+  margin-left: 20px;
+}
+
+.parrafo-consultoria {
+  margin-left: 20px;
+}
+
+.parrafo-soluciones-tecnologicas {
+  margin-left: 50px;
+}
+
+.titulo-clientes {
+  text-align: start;
+  margin-left: 20px;
+  padding-top: 30px;
+  font-family: helvetica neue, arial, sans-serif;
+  font-weight: bold;
+  color: #26B6C6;
+  font-size: 2em;
+}
+
+.contenedor-clientes .imagen-principal-clientes {
+  height: 70vh;
+}
+
+.imagen-principal-clientes img {
+  width: 95%;
+}
+
+.main-clientes {
+  padding-right: 0;
+  margin-right: 0;
+}
+
+.contenedor-clientes {
+  padding-right: 0;
+  margin-right: 0;
+}
+
+.clientes {
+  padding-top: 30px;
+}
+
+.contenedor-clientes .parrafo-clientes {
+  padding-left: 40px;
+}
+
+.casos-exito {
+  justify-content: center;
+  padding-left: 10px;
+}
+
+.caso-uno p p, .caso-dos p p, .caso-tres p {
+  padding: 0 0 0 30px;
+}
+
+.imagen-caso1 img {
+  width: 100%;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  height: 220px;
+}
+
+.imagen-caso2 img {
+  width: 100%;
+  padding-top: 20px;
+  height: 180px;
+}
+
+.imagen-caso3 img {
+  width: 70%;
+}
+
+.imagen-contacto img {
+  width: 100%;
+  height: 60vh;
+}
+
+.parrafo-contacto {
+  padding-left: 40px;
+  padding-right: 40px;
+  margin-bottom: 50px;
+}
+
+.formulario input {
+  width: 420px;
+  height: 40px;
+  margin: 10px;
+  padding-left: 40px;
+}
+
+.formulario textarea {
+  width: 420px;
+  margin: 10px;
+  padding-left: 40px;
+}
+
+.formulario label {
+  text-decoration: underline;
+  margin-left: 20px;
+  display: block;
+}
+
+.contenedor-formulario .video-contacto {
+  display: none;
+}
+
+.boton-enviar {
+  text-align: center;
+  justify-content: center;
+  font-weight: bold !important;
+  width: 420px;
+  margin: 10px;
+}
+
+/* estilos mobile para home */
+@media screen and (min-width: 600px) {
+  .mapas-iframe .mapa-santiago, .mapas-iframe .mapa-calama {
+    display: block;
+  }
+  .imagenes-clientes .imagen-pucobre, .imagen-anglo, .imagen-kinross {
+    display: inline;
+  }
+  .iconos {
+    display: inline;
+  }
+}
+@media screen and (max-width: 599px) {
+  .imagen-principal-clientes img {
+    width: 100%;
+  }
+  .logo {
+    width: 60%;
+  }
+}
+/* estilos mobile para contacto */
+@media screen and (min-width: 600px) {
+  .contenedor-formulario .video-contacto {
+    display: inline;
+    border-radius: 25px;
+  }
+  .formulario input {
+    width: 520px;
+  }
+  .formulario textarea, .boton-enviar {
+    width: 520px;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
