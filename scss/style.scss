@@ -148,7 +148,12 @@ h3 {
 .boton-contacto{
     width: 350px;
     font-weight: bold !important;
-    
+    transition: all 2s;
+}
+
+.boton-contacto:hover {
+    width: 450px;
+    background-color: green !important;
 }
 
 .imagen-origenes {
@@ -234,7 +239,6 @@ h3 {
 .abastecimiento {
     display: flex;
     justify-content: center;
-    text-decoration: underline;
     color: $color-principal;
     margin-bottom: 40px
 }
@@ -242,9 +246,8 @@ h3 {
 .consultoria {
     display: flex;
     justify-content: center;
-    text-decoration: underline;
     color: $color-principal;
-    margin-bottom: 40px;
+    margin-bottom: 50px;
 }
 
 .img-abastecimiento{
@@ -262,7 +265,6 @@ h3 {
 .soluciones-tecnologicas {
     color: $color-principal;
     margin-bottom: 50px;
-    text-decoration: underline;
 }
 
 .imagen-soluciones-tecnologicas {
@@ -450,3 +452,4 @@ h3 {
     }
 
 }
+
