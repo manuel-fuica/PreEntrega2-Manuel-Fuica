@@ -1,0 +1,72 @@
+
+//estilos para clientes
+
+.titulo-clientes{
+    text-align: start;
+    margin-left: 20px;
+    padding-top: 30px;
+    font-family: helvetica neue, arial, sans-serif;
+    font-weight: bold;
+    color: $color-principal;
+    font-size: 2em;
+}
+
+.contenedor-clientes .imagen-principal-clientes{
+    height: 70vh;
+}
+
+.imagen-principal-clientes img{
+    width: 95%;
+}
+.main-clientes{
+    padding-right: 0;
+    margin-right: 0;
+}
+
+.contenedor-clientes{
+    padding-right: 0;
+    margin-right: 0;
+}
+
+.clientes{
+    padding-top: 30px;
+}
+
+.contenedor-clientes .parrafo-clientes{
+    padding-left: 40px;
+
+}
+
+.casos-exito {
+    justify-content: center;
+    padding-left: 10px;
+}
+
+.caso-uno p, .caso-dos p, .caso-tres {
+    p{
+        padding: 0 0 0 30px;
+    }
+}
+
+.imagen-caso1 {
+    img{
+        width: 100%;
+        padding-bottom: 20px;
+        padding-top: 20px;
+        height: 220px;
+    }
+}
+
+.imagen-caso2 {
+    img{
+        width: 100%;
+        padding-top: 20px;
+        height: 180px;
+    }
+}
+
+.imagen-caso3 {
+    img{
+        width: 70%;
+    }
+}

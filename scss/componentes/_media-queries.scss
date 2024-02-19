@@ -1,0 +1,46 @@
+
+
+/* medias queries*/
+
+@media screen and (min-width:600px){
+    .mapas-iframe .mapa-santiago, .mapas-iframe .mapa-calama{
+        display: block;
+    }
+
+    .imagenes-clientes .imagen-pucobre, .imagen-anglo, .imagen-kinross{
+        display: inline;
+    }
+
+    .iconos{
+        display: inline;
+    }
+    
+}
+
+@media screen and (max-width:599px){
+
+    .imagen-principal-clientes img{
+        width: 100%;
+    }
+
+    .logo{
+        width: 60%;
+    }
+}
+
+@media screen and (min-width:600px){
+
+    .contenedor-formulario .video-contacto{
+        display: inline;
+        border-radius: 25px;
+    }
+
+    .formulario input {
+        width: 520px;
+    }
+
+    .formulario textarea, .boton-enviar {
+        width: 520px;
+    }
+
+}

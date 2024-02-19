@@ -1,24 +1,17 @@
-@import "utilidades/reset";
+//----------------------------------------------------------------------------------------------------------------
+//importacion de utilidades
+
 @import "utilidades/variables";
+@import "utilidades/mixin";
 
-header {
-    div{
-        nav{
-            div{
-                div{
-                    ul{
-                        li{
-                            .dropdown-menu{
-                                background-color: $color-principal;
-                            }
-                        }
-                    }
-                }
-            }
-        }
-    }
+//-------------------------------------------------------------------------------------------
+//importacion de componentes
 
-}
+@import "componentes/reset";
+@import "componentes/navbar";
+
+
+//estilos index
 
 .servicios-ofrecidos{
     background-color: nth($colores-institucionales, 3);
@@ -156,326 +149,20 @@ h3 {
     background-color: green !important;
 }
 
-.imagen-origenes {
-    img{
-        height: 50vh;
-        width: 100%;
-        border-radius: 5px;
-    }
-}
+//estilos manet
+@import "componentes/manet";
 
-.titulo-origenes {
-    text-align: center;
-    background-color: #42a5f5;
-    color: nth($colores-institucionales, 2);
-    width: 450px;
-    height: 50px;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    border-radius: 15px;
-    
-}
+//estilos para clientes
+@import "componentes/clientes";
 
-.origenes {
-    p{
-        padding-top: 20px;
-        margin: 25px;
-    }
-}
+//estilos para servicios
+@import "componentes/servicios";
 
-.objetivos-vision{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 10px;
-}
+//estilos para contacto
+@import "componentes/contacto";
 
-.titulo-objetivos{
-    @include titulos-objetivos-vision;
-}
+// medias queries
+@import "componentes/media-queries";
 
-.titulo-vision{
-    @include titulos-objetivos-vision;
-}
-
-.objetivos {
-    p{
-        margin: 35px;
-    }
-}
-
-.vision {
-    p{
-        margin: 35px;
-    }
-}
-.imagen-servicios-tecnologicos {
-    img{
-        width: 100%;
-        height: 60vh;
-    }
-}
-
-.titulo-servicios {
-    text-align: center;
-    background-color: #42a5f5;
-    color: nth($colores-institucionales, 2);
-    top: 470px;
-    left: 450px;
-    width: 100%;
-    height: 50px;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    text-decoration: none;
-}
-
-.servicios {
-    p{
-        padding-top: 40px;
-        margin-left: 30px;
-        padding-bottom: 20px;
-    }
-}
-
-.abastecimiento {
-    display: flex;
-    justify-content: center;
-    color: $color-principal;
-    margin-bottom: 40px
-}
-
-.consultoria {
-    display: flex;
-    justify-content: center;
-    color: $color-principal;
-    margin-bottom: 50px;
-}
-
-.img-abastecimiento{
-    width: 100%;
-    height: 50vh;
-    margin-left: 20px;
-}
-
-.img-consultoria{
-    width: 100%;
-    height: 50vh;
-    margin-left: 20px;
-}
-
-.soluciones-tecnologicas {
-    color: $color-principal;
-    margin-bottom: 50px;
-}
-
-.imagen-soluciones-tecnologicas {
-    img{
-        width: 100%;
-        height: 60vh;
-        margin-right: 0;
-        padding-right: 0;
-    }
-}
-
-.parrafo-abastecimiento {
-    margin-left: 20px;
-
-}
-
-.parrafo-consultoria {
-    margin-left: 20px;
-}
-
-.parrafo-soluciones-tecnologicas{
-    margin-left: 50px;
-}
-
-.titulo-clientes{
-    text-align: start;
-    margin-left: 20px;
-    padding-top: 30px;
-    font-family: helvetica neue, arial, sans-serif;
-    font-weight: bold;
-    color: $color-principal;
-    font-size: 2em;
-}
-
-.contenedor-clientes .imagen-principal-clientes{
-    height: 70vh;
-}
-
-.imagen-principal-clientes img{
-    width: 95%;
-}
-.main-clientes{
-    padding-right: 0;
-    margin-right: 0;
-}
-
-.contenedor-clientes{
-    padding-right: 0;
-    margin-right: 0;
-}
-
-.clientes{
-    padding-top: 30px;
-}
-
-.contenedor-clientes .parrafo-clientes{
-    padding-left: 40px;
-
-}
-
-.casos-exito {
-    justify-content: center;
-    padding-left: 10px;
-}
-
-.caso-uno p, .caso-dos p, .caso-tres {
-    p{
-        padding: 0 0 0 30px;
-    }
-}
-
-.imagen-caso1 {
-    img{
-        width: 100%;
-        padding-bottom: 20px;
-        padding-top: 20px;
-        height: 220px;
-    }
-}
-
-.imagen-caso2 {
-    img{
-        width: 100%;
-        padding-top: 20px;
-        height: 180px;
-    }
-}
-
-.imagen-caso3 {
-    img{
-        width: 70%;
-    }
-}
-
-.imagen-contacto {
-    img{
-        width: 100%;
-        height: 60vh;
-    }
-    
-}
-
-.titulo-contacto{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    color: $color-principal;
-
-    animation: movimiento infinite 5s 1s;
-}
-
-@keyframes movimiento {
-    0% {
-        transform: scale(1);
-    }
-    25%{
-        transform: scale(1.3);
-    }
-    50%{
-        transform: scale(1);
-    }
-    75%{
-        transform: scale(1.3);
-    }
-    100%{
-        transform: scale(1);
-    }
-}
-
-.parrafo-contacto {
-    padding-left: 40px;
-    padding-right: 40px;
-    margin-bottom: 50px;
-}
-
-.formulario input {
-    width: 420px;
-    height: 40px;
-    margin: 10px;
-    padding-left: 40px;
-    
-}
-
-.formulario textarea {
-    width: 420px;
-    margin: 10px;
-    padding-left: 40px;
-}
-
-.formulario label {
-    text-decoration: underline;
-    margin-left: 20px;
-    display: block;
-}
-
-.contenedor-formulario .video-contacto{
-    display: none;
-}
-
-.boton-enviar {
-    text-align: center;
-    justify-content: center;
-    font-weight: bold !important;
-    width: 420px;
-    margin: 10px;
-    
-}
-
-/* estilos mobile para home */
-
-@media screen and (min-width:600px){
-    .mapas-iframe .mapa-santiago, .mapas-iframe .mapa-calama{
-        display: block;
-    }
-
-    .imagenes-clientes .imagen-pucobre, .imagen-anglo, .imagen-kinross{
-        display: inline;
-    }
-
-    .iconos{
-        display: inline;
-    }
-    
-}
-
-@media screen and (max-width:599px){
-
-    .imagen-principal-clientes img{
-        width: 100%;
-    }
-
-    .logo{
-        width: 60%;
-    }
-}
-
-@media screen and (min-width:600px){
-
-    .contenedor-formulario .video-contacto{
-        display: inline;
-        border-radius: 25px;
-    }
-
-    .formulario input {
-        width: 520px;
-    }
-
-    .formulario textarea, .boton-enviar {
-        width: 520px;
-    }
-
-}
 
 

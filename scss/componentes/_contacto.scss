@@ -1,0 +1,76 @@
+
+//estilos para contacto
+
+.imagen-contacto {
+    img{
+        width: 100%;
+        height: 60vh;
+    }
+    
+}
+
+.titulo-contacto{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    color: $color-principal;
+
+    animation: movimiento infinite 5s 1s;
+}
+
+@keyframes movimiento {
+    0% {
+        transform: scale(1);
+    }
+    25%{
+        transform: scale(1.3);
+    }
+    50%{
+        transform: scale(1);
+    }
+    75%{
+        transform: scale(1.3);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+
+.parrafo-contacto {
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-bottom: 50px;
+}
+
+.formulario input {
+    width: 420px;
+    height: 40px;
+    margin: 10px;
+    padding-left: 40px;
+    
+}
+
+.formulario textarea {
+    width: 420px;
+    margin: 10px;
+    padding-left: 40px;
+}
+
+.formulario label {
+    text-decoration: underline;
+    margin-left: 20px;
+    display: block;
+}
+
+.contenedor-formulario .video-contacto{
+    display: none;
+}
+
+.boton-enviar {
+    text-align: center;
+    justify-content: center;
+    font-weight: bold !important;
+    width: 420px;
+    margin: 10px;
+    
+}

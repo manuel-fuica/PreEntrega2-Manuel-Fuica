@@ -1,0 +1,10 @@
+
+
+//mixin
+
+@mixin titulos-objetivos-vision{
+    background-color: #42a5f5;
+    color: nth($colores-institucionales, 2);
+    height: 40px;
+    border-radius: 15px;
+}

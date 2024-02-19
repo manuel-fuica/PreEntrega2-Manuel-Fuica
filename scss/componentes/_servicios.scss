@@ -1,0 +1,83 @@
+
+//estilos para servicios
+
+.imagen-servicios-tecnologicos {
+    img{
+        width: 100%;
+        height: 60vh;
+    }
+}
+
+.titulo-servicios {
+    text-align: center;
+    background-color: #42a5f5;
+    color: nth($colores-institucionales, 2);
+    top: 470px;
+    left: 450px;
+    width: 100%;
+    height: 50px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-decoration: none;
+}
+
+.servicios {
+    p{
+        padding-top: 40px;
+        margin-left: 30px;
+        padding-bottom: 20px;
+    }
+}
+
+.abastecimiento {
+    display: flex;
+    justify-content: center;
+    color: $color-principal;
+    margin-bottom: 40px
+}
+
+.consultoria {
+    display: flex;
+    justify-content: center;
+    color: $color-principal;
+    margin-bottom: 50px;
+}
+
+.img-abastecimiento{
+    width: 100%;
+    height: 50vh;
+    margin-left: 20px;
+}
+
+.img-consultoria{
+    width: 100%;
+    height: 50vh;
+    margin-left: 20px;
+}
+
+.soluciones-tecnologicas {
+    color: $color-principal;
+    margin-bottom: 50px;
+}
+
+.imagen-soluciones-tecnologicas {
+    img{
+        width: 100%;
+        height: 60vh;
+        margin-right: 0;
+        padding-right: 0;
+    }
+}
+
+.parrafo-abastecimiento {
+    margin-left: 20px;
+
+}
+
+.parrafo-consultoria {
+    margin-left: 20px;
+}
+
+.parrafo-soluciones-tecnologicas{
+    margin-left: 50px;
+}

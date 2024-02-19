@@ -1,0 +1,55 @@
+
+//estilos para Manet
+
+.imagen-origenes {
+    img{
+        height: 50vh;
+        width: 100%;
+        border-radius: 5px;
+    }
+}
+
+.titulo-origenes {
+    text-align: center;
+    background-color: #42a5f5;
+    color: nth($colores-institucionales, 2);
+    width: 450px;
+    height: 50px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 15px;
+    
+}
+
+.origenes {
+    p{
+        padding-top: 20px;
+        margin: 25px;
+    }
+}
+
+.objetivos-vision{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+.titulo-objetivos{
+    @include titulos-objetivos-vision;
+}
+
+.titulo-vision{
+    @include titulos-objetivos-vision;
+}
+
+.objetivos {
+    p{
+        margin: 35px;
+    }
+}
+
+.vision {
+    p{
+        margin: 35px;
+    }
+}
