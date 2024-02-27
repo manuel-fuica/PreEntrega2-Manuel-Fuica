@@ -12,7 +12,9 @@
 
 
 //estilos index
-
+main{
+    width: 100%;
+}
 .servicios-ofrecidos{
     background-color: nth($colores-institucionales, 3);
 }

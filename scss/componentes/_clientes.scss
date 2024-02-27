@@ -1,6 +1,14 @@
 
 //estilos para clientes
 
+.main-clientes {
+    margin-right: 0 !important;
+}
+
+.contenedor-logo {
+    margin-right: 0 !important;
+}
+
 .titulo-clientes{
     text-align: start;
     margin-left: 20px;
@@ -30,6 +38,22 @@
 
 .clientes{
     padding-top: 30px;
+}
+
+.slider .slider-track {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    -webkit-animation: scroll 40s linear infinite;
+    animation-name: scroll;
+    animation-duration: 40s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-fill-mode: none;
+    animation-play-state: running;
+    
 }
 
 .contenedor-clientes .parrafo-clientes{
