@@ -19,41 +19,23 @@
     font-size: 2em;
 }
 
-.contenedor-clientes .imagen-principal-clientes{
-    height: 70vh;
+.titulo-secundario-clientes {
+    text-align: center;
+    margin-left: 20px;
+    padding-top: 30px;
+    font-family: helvetica neue, arial, sans-serif;
+    color: $color-principal;
+    font-size: 2em;
 }
 
 .imagen-principal-clientes img{
-    width: 95%;
-}
-.main-clientes{
-    padding-right: 0;
-    margin-right: 0;
+    width: 100%;
 }
 
-.contenedor-clientes{
-    padding-right: 0;
-    margin-right: 0;
-}
+
 
 .clientes{
     padding-top: 30px;
-}
-
-.slider .slider-track {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    -webkit-animation: scroll 40s linear infinite;
-    animation-name: scroll;
-    animation-duration: 40s;
-    animation-timing-function: linear;
-    animation-delay: 0s;
-    animation-iteration-count: infinite;
-    animation-direction: normal;
-    animation-fill-mode: none;
-    animation-play-state: running;
-    
 }
 
 .contenedor-clientes .parrafo-clientes{
@@ -91,6 +73,6 @@
 
 .imagen-caso3 {
     img{
-        width: 70%;
+        width: 100%;
     }
 }
