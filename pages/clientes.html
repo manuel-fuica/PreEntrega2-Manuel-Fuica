@@ -13,11 +13,11 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 
 </head>
-<body class="body-clientes">
-    <header class="container-header bg-info">
-        <div class="row contenedor-logo">
+<body class="bg-info">
+    <header class="container">
+        <div class="row">
             <div class="col 4">
-                <img class="logo animate__animated animate__flipInX" src="../Imagenes/manet-sin-fondo.png" alt="Imagen logo Manet">
+                <img class="logo animate__animated animate__flip" src="../Imagenes/manet-sin-fondo.png" alt="imagen logo Manet">
             </div>
                 <nav class="navbar navbar-expand-lg col-5">
                     <div class="container-fluid">
@@ -31,7 +31,7 @@
                                 <a class="nav-link active" aria-current="page" href="../pages/manet.html">MANET</a>
                                 </li>
                                 <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="./pages/servicios.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">SERVICIOS
+                                    <a class="nav-link dropdown-toggle" href="./servicios.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">SERVICIOS
                                     </a>
                                     <ul class="dropdown-menu">
                                         <li><a class="dropdown-item" href="./servicios.html">BPO DE PROCESOS DE ABASTECIMIENTO</a></li>
@@ -44,7 +44,7 @@
                                         <a class="nav-link" href="./clientes.html">CLIENTES</a>
                                         </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="./contacto.html">CONTACTO</a>
+                                    <a class="nav-link" href="../pages/contacto.html">CONTACTO</a>
                                     </li>
                                 </li>              
                             </ul>
@@ -55,9 +55,9 @@
     </header>
     <main class=" main-clientes bg-white">
         <div class="contenedor-clientes">
-                <div class="row">
-                    <label for="" class="titulo-clientes col-12">Clientes :</label>
-                    <p class="parrafo-clientes col-12 col-sm-6">Manet orienta sus servicios a organizaciones en los que el abastecimiento es un proceso estrategico y determinante en   los resultados.Supplynet apoya los procesos de abastecimientos en forma integral  desarrollando relaciones de largo plazo que apuntan a mejorar sus procesos en forma  verificable.
+                <div class="titulo-parrafo">
+                    <label for="" class="titulo-clientes">Clientes :</label>
+                    <p class="parrafo-clientes">Manet orienta sus servicios a organizaciones en los que el abastecimiento es un proceso estrategico y determinante en   los resultados.Supplynet apoya los procesos de abastecimientos en forma integral  desarrollando relaciones de largo plazo que apuntan a mejorar sus procesos en forma  verificable.
                         <br>
                         <br>
                         Entre los clientes en los que los equipos de Manet han prestado servicios secuentan las áreas de abastecimiento y contratos de compañias tales como: CODELCO, AMSA, PUCOBRE, CMPC, SIERRA GORDA, ANGLO AMERICAN, KINROSS.
@@ -65,55 +65,62 @@
                         <br>
                         Es clave en el servicio la experiencia y capacidades de los equipos que desarrollan los servicios, así como el enfoque de procesos y la supervisión que se realice sobre éstos. Se busca aportar mejores prácticas y asegurar los resultados para el cliente.
                     </p>
-                    <div class="imagen-principal-clientes col-12 col-sm-6">
+                </div>    
+                <div class="imagen-principal-clientes">
                         <img src="../Imagenes/imagenPaginaClientes.png" alt="imagen de un hombre mostrando el mundo y softwares">
-                    </div>
                 </div>
         </div>
         <div class="clientes bg-white col-12">
             <h2 class="titulo-secundario-clientes">ALGUNOS DE NUESTROS CLIENTES</h2>
             <hr class="hr-titulo-secundario">
-        <div class="imagenes-clientes">
-            <img class="imagen-amsa" src="../Imagenes/clientes/amsa.jpg" alt="imagen-amsa">    
-            <img class="imagen-codelco" src="../Imagenes/clientes/codelco.jpg" alt="imagen-codelco">    
-            <img class="imagen-cmpc" src="../Imagenes/clientes/cmpc.jpg" alt="imagen-cmpc">                        
-            <img class="imagen-pucobre" src="../Imagenes/clientes/anglo1.jpg" alt="imagen-pucobre">
-            <img class="imagen-kinross" src="../Imagenes/clientes/kinross.jpg" alt="imagen-kinross">
+            <div class="imagenes-clientes">
+                <img class="imagen-amsa" src="../Imagenes/clientes/amsa.jpg" alt="imagen-amsa">    
+                <img class="imagen-codelco" src="../Imagenes/clientes/codelco.jpg" alt="imagen-codelco">    
+                <img class="imagen-cmpc" src="../Imagenes/clientes/cmpc.jpg" alt="imagen-cmpc">                        
+                <img class="imagen-pucobre" src="../Imagenes/clientes/anglo1.jpg" alt="imagen-pucobre">
+                <img class="imagen-kinross" src="../Imagenes/clientes/kinross.jpg" alt="imagen-kinross">
+            </div>
         </div>
-    </div>
-        <div class="row bg-light">
-            <h2 class="casos-exito col-12">ALGUNOS CASOS DE EXITO</h2>
-            <div class="caso-uno col-12 col-sm-6">
-                <div class="row">
-                    <p class="caso1 col-12 col-sm-6">Los Administradores de contrato no tenían la visibilidad de la información que fluia desde y hacia los contratos. En esa línea desarrollamos en conjunto en una primera etapa la segmentación de los contratos basados en Monto, criticidad y relación con el negocio (estratégicos). En la operación actual los administradores de contratos pueden visualizar en un solo panel toda la información relativa al contrato en forma centralizada, es decir en un solo lugar y de fácil accesos reduciendo asi los tiempos con consulta.</p>
-                    <div class="imagen-caso1 col-12 col-sm-6">
+        <div class="bg-light">
+            <div>
+                <h2>CASOS DE EXITO</h2>
+            </div>
+        <div class="casos-exito">
+            <div class="caso-uno">
+                <div class="">
+                    <h2>Monitoreo De Contratos</h2>
+                    <p class="caso1">Los Administradores de contrato no tenían la visibilidad de la información que fluia desde y hacia los contratos. En esa línea desarrollamos en conjunto en una primera etapa la segmentación de los contratos basados en Monto, criticidad y relación con el negocio (estratégicos). En la operación actual los administradores de contratos pueden visualizar en un solo panel toda la información relativa al contrato en forma centralizada, es decir en un solo lugar y de fácil accesos reduciendo asi los tiempos con consulta.</p>
+                    <div class="imagen-caso1">
                         <img src="../Imagenes/imagenCaso1.jpg" alt="Imagen de un hombre y una ampolleta simbolizando una idea">
                     </div>
                 </div>
             </div>
-            <div class="caso-dos col-12 col-sm-6">
-                <div class="row">
-                    <p class="caso2 col-12 col-sm-6">importante holding nos solicitó la ejecución de un proceso de negociación electrónica, para lo cual desarrollamos nuestra metodología, donde como punto de partida hacemos un levantamiento del escenario de negociación con el fin de realizar un diagnóstico de la situación. 
+            <div class="caso-dos">
+                <div class="">
+                    <h2>E-Auctions</h2>
+                    <p class="caso2">Importante holding nos solicitó la ejecución de un proceso de negociación electrónica, para lo cual desarrollamos nuestra metodología, donde como punto de partida hacemos un levantamiento del escenario de negociación con el fin de realizar un diagnóstico de la situación. 
                         <br>
                         El resultado final del proceso fue un ahorro de un 25% en categoría suministros de cañerías. Es decir en 45 minutos se logro obtener nuevos precios del mercado con una baja de un 25%.
                     </p>
-                    <div class="imagen-caso2 col-12 col-sm-6">
-                        <img src="../Imagenes/imagenCaso2.jpg" alt="imagen de metricas de software">
+                    <div class="imagen-caso2">
+                    <img src="../Imagenes/imagenCaso2.jpg" alt="imagen de metricas de software">
                     </div>
                 </div>
             </div>
             <div class="caso-tres col-12 my-4">
-                <div class="row">
-                    <p class="caso3 col-12 col-sm-6 py-4">Empresa lider en servicios de transporte para la gran minería, se ha planteado grandes desafíos hacia el futuro en términos de mejorar su competitividad de costo e incrementar la carga transportada anual.<br>
+                <div class="">
+                    <h2 class="titulo-caso3">Strategic Sourcing</h2>
+                    <p class="caso3">Empresa lider en servicios de transporte para la gran minería, se ha planteado grandes desafíos hacia el futuro en términos de mejorar su competitividad de costo e incrementar la carga transportada anual.<br>
                         Como pilar fundamentar en la obtención de este resultado, la empresa requería de la renovación de su flota de locomotoras Diesel-Eléctricas, la que a su vez implica la primera renovación de equipos en más de 50 años.<br>
                         Con el apoyo de nuestro, basado en la metodología de Sourcing Estrategico desarrollada por nuestro equipo de consultores logró desarrollar un proceso de Sourcing exitoso, que incluyó estudios de mercado con 29 empresas tanto fabricantes como proveedoras de la industria ferroviaria a nivel global y que permitieron levantar una negociación de estándar mundial con actores de distintas latitudes del mundo.<br>
                         A través de este trabajo colaborativo, la empresa, logró un ahorro de 12% en el precio neto de los equipos e incorporó en forma adicional al acuerdo la gestión logística, puesta en marcha, pruebas en terreno, garantías, asistencia técnica y suministro de repuestos bajo contrato por 5 años.
                     </p>
-                    <div class="imagen-caso3 col-12 col-sm-6">
-                        <img class="rounded mx-auto d-block" src="../Imagenes/imagenCaso3.jpeg" alt="Imagen de dos personas mirando una pantalla, simbolizando una consultoria">
-                    </div>
                 </div>
             </div>
+            <div class="imagen-caso3">
+                <img src="../Imagenes/imagenConsultoria4.jpg" alt="Imagen de dos personas mirando una pantalla, simbolizando una consultoria">
+            </div>
+        </div>
         </div>
     </main>
     <footer>

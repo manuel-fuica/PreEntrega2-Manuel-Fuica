@@ -38,6 +38,30 @@ h2{
     margin-top: 6px;
 }
 
+.servicios-index{
+    background-color: #82828229;
+}
+
+.p-servicios-index{
+    padding: 30px;
+}
+
+.clientes{
+    background-color: #82828229;
+}
+
+.imagen-servicios-index{
+    img{
+        width: 50%;
+        height: 50vh;
+    }
+}
+
+.imagen-servicios-index{
+    display: flex;
+    justify-content: center;
+}
+
 .titulo-secundario {
     margin-top: 10px;
     margin-left: 20px;
@@ -49,6 +73,11 @@ h2{
     color: $color-hr;
     margin-left: 36%;
     border-radius: 2px;
+}
+
+.imagenes-clientes{
+    display: flex;
+    justify-content: center;
 }
 
 .imagenes-clientes {
@@ -81,7 +110,7 @@ h2{
     }
 }
 
-.imagenes-clientes .imagen-pucobre, .imagen-cmpc{
+.imagenes-clientes .imagen-pucobre{
     display: none;
 }
 
