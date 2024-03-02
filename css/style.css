@@ -485,7 +485,7 @@ footer section {
   margin-bottom: 50px;
 }
 
-.contenedor-formulario {
+.contenedor-formulario-video {
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
