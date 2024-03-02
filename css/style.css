@@ -497,14 +497,13 @@ footer section {
 }
 
 .formulario input {
-  width: 420px;
   height: 40px;
   margin: 10px;
   padding-left: 40px;
 }
 
 .formulario textarea {
-  width: 420px;
+  width: 100%;
   margin: 10px;
   padding-left: 40px;
 }
@@ -519,7 +518,7 @@ footer section {
   text-align: center;
   justify-content: center;
   font-weight: bold !important;
-  width: 420px;
+  width: 100%;
   margin: 10px;
 }
 
