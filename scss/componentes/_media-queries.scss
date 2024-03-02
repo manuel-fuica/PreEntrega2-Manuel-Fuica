@@ -1,38 +1,16 @@
 
 
-/* medias queries*/
+/* medias queries mobiles*/
 
-@media screen and (min-width:600px){
-    .mapas-iframe .mapa-santiago, .mapas-iframe .mapa-calama{
-        display: block;
-    }
-
-    .imagenes-clientes .imagen-pucobre, .imagen-anglo, .imagen-kinross{
-        display: inline;
-    }
+@media screen and (max-width:600px){
 
     .iconos{
-        display: inline;
+        display: none;
     }
-    
-}
-
-@media screen and (max-width:599px){
-
-    .imagen-principal-clientes img{
-        width: 100%;
-    }
-
-    .logo{
-        width: 60%;
-    }
-}
-
-@media screen and (min-width:600px){
 
     .contenedor-formulario .video-contacto{
         display: inline;
-        border-radius: 25px;
+        
     }
 
     .formulario input {
@@ -42,5 +20,203 @@
     .formulario textarea, .boton-enviar {
         width: 520px;
     }
+//index------------------------
+    .logo{
+        padding-left: 90px;
+    }
 
+    .imagenes-clientes{
+        display: block;
+        padding-left: 50px;
+    }
+
+    .imagenes-clientes .imagen-kinross, .imagen-anglo, .imagen-sqm{
+        display: none;
+    }
+
+    .imagen-principal-clientes img{
+        width: 100%;
+    }
+
+    .imagen-servicios-index {
+        img{
+            height: 30vh;
+        }
+    }
+
+    .direcciones h3{
+        display: flex;
+        text-align: start;
+    }
+
+//manet---------------------------------------------
+    .parrafo-extenso-manet{
+        display: none;
+    }
+
+    .origenes{
+        display: block;
+    }
+
+    .objetivos{
+        display: none;
+    }
+
+    .objetivos-vision{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+//servicios---------------------------------------------------
+
+    .parrafo-uno-servicios, .parrafo-tres-servicios{
+        display: none;
+    }
+
+    .contenedor-servicios-ofrecidos{
+        display: grid;
+        grid-template-columns: 1fr;
+        padding-right: 25px;
+    }
+
+    .abastecimiento{
+        animation: slide 5s 1s;
+
+    @keyframes slide {
+        from{
+            margin-left: 100%;
+        }to{
+            margin-left: 0%;
+        }
+    }
+    }
+
+    .consultoria{
+        animation: slide 5s 1s;
+
+    @keyframes slide {
+        from{
+            margin-left: 100%;
+        }to{
+            margin-left: 0%;
+        }
+    }
+    }
+
+    .img-abastecimiento{
+        width: 100%;
+        height: 30vh;
+        border-radius: 50px;
+    }
+
+    .img-consultoria{
+        width: 100%;
+        height: 30vh;
+        padding-left: 25px;
+        border-radius: 50px;
+    }
+
+    .parrafo-extendido-abastecimiento{
+        display: none;
+    }
+
+    .imagen-soluciones-tecnologicas img{
+        width: 100%;
+        height: 30vh;
+        border-radius: 20px 100px;
+    }
+
+//clientes----------------------------------------
+
+    .contenedor-clientes {
+        display: grid;
+        grid-template-columns: 1fr;
+        padding-right: 20px;
+    }
+
+    .imagen-principal-clientes img{
+        display: none;
+    }
+
+    .parrafo-clientes-dos{
+        display: none;
+    }
+
+    .casos-exito{
+        display: grid;
+        grid-template-columns: 1fr;
+        padding-right: 20px;
+    }
+
+    .casos-exito{
+        img{
+            width: 100%;
+            height: 20vh;
+        }
+    }
+
+    .caso3 {
+        display: grid;
+        grid-template-columns: 1fr;
+        padding: 0 50px 0 50px;
+    }
+
+    .imagen-caso3 {
+        display: none;
+    }
+
+//contacto----------------------------------------------------
+
+    .formulario{
+        padding-left: 10px !important;
+    }
+
+    .formulario-contacto{
+        display: flex;
+    }
+}
+
+
+//medias queri para tablet
+
+@media screen and (min-width:720px){
+
+    .imagen-principal-clientes img{
+        width: 100%;
+    }
+        
+
+    .video-contacto{
+        width: 100%;
+        height: 70vh;
+        padding: 30px;
+    }
+
+    .mapa-santiago{
+        width: 700px;
+    }
+
+    .imagenes-clientes{
+        display: block;
+        padding-left: 50px;
+    }
+
+    .imagenes-clientes .imagen-kinross, .imagen-anglo, .imagen-sqm{
+        display: none;
+    }
+}
+
+@media screen and (min-width:1024px){
+
+    .mapas-iframe .mapa-antofagasta, .mapas-iframe .mapa-calama{
+        display: flex;
+    }
+
+    .imagenes-clientes .imagen-kinross, .imagen-anglo, .imagen-sqm{
+        display: inline;
+    }
+
+    .imagen-sqm{
+        display: none;
+    }
 }

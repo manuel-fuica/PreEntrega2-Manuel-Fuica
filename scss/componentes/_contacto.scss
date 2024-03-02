@@ -44,6 +44,12 @@
     margin-bottom: 50px;
 }
 
+.contenedor-formulario{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
+
 .formulario input {
     width: 420px;
     height: 40px;
@@ -62,10 +68,6 @@
     text-decoration: underline;
     margin-left: 20px;
     display: block;
-}
-
-.contenedor-formulario .video-contacto{
-    display: none;
 }
 
 .boton-enviar {

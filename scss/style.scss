@@ -83,7 +83,6 @@ h2{
 .imagenes-clientes {
 
     img{
-        
         width: 230px;
         height: 160px;
         gap: 50px; 
@@ -110,9 +109,6 @@ h2{
     }
 }
 
-.imagenes-clientes .imagen-pucobre{
-    display: none;
-}
 
 h3 {
     text-align: center;
@@ -152,14 +148,13 @@ footer{
     justify-content: space-around;
 }
 
-.mapas-iframe .mapa-santiago, .mapas-iframe .mapa-calama{
+.mapas-iframe .mapa-antofagasta, .mapas-iframe .mapa-calama{
     display: none;
 }
 
 .direcciones {
     h3{
-        padding-top: 8px;
-        margin-left: 100px;
+        margin-left: 20px;
     }
     
 }
@@ -195,7 +190,7 @@ footer{
 .iconos{
     text-align: start;
     width: 50%;
-    display: none;
+    
 }
 
 .boton-contacto{

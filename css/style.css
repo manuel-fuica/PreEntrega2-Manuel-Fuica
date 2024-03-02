@@ -101,10 +101,6 @@ h2 {
   }
 }
 
-.imagenes-clientes .imagen-pucobre {
-  display: none;
-}
-
 h3 {
   text-align: center;
 }
@@ -139,13 +135,12 @@ footer section {
   justify-content: space-around;
 }
 
-.mapas-iframe .mapa-santiago, .mapas-iframe .mapa-calama {
+.mapas-iframe .mapa-antofagasta, .mapas-iframe .mapa-calama {
   display: none;
 }
 
 .direcciones h3 {
-  padding-top: 8px;
-  margin-left: 100px;
+  margin-left: 20px;
 }
 
 .titulo-derechos-reservados {
@@ -177,7 +172,6 @@ footer section {
 .iconos {
   text-align: start;
   width: 50%;
-  display: none;
 }
 
 .boton-contacto {
@@ -216,7 +210,11 @@ footer section {
 }
 
 .origenes p {
-  padding-top: 20px;
+  padding-top: 50px;
+  margin: 25px;
+}
+
+.parrafo-extenso-manet {
   margin: 25px;
 }
 
@@ -284,8 +282,9 @@ footer section {
 }
 
 .imagen-principal-clientes img {
-  width: 80%;
-  padding: 20px 20px 0 0;
+  width: 90%;
+  height: 40vh;
+  padding: 80px 20px 0 0;
   border-radius: 50px 280px;
 }
 
@@ -298,7 +297,7 @@ footer section {
   grid-template-columns: 1fr 1fr;
 }
 
-.contenedor-clientes .parrafo-clientes {
+.contenedor-clientes .parrafo-clientes, .parrafo-clientes-dos {
   padding-left: 40px;
 }
 
@@ -328,12 +327,18 @@ footer section {
   border-radius: 280px 50px;
 }
 
+.caso3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 0 50px 0 50px;
+}
+
 .titulo-caso3 {
   margin-bottom: 20px;
 }
 
 .imagen-caso3 img {
-  width: 90%;
+  width: 100%;
   height: 45vh;
   padding-top: 90px;
   border-radius: 0 280px 0 280px;
@@ -357,10 +362,14 @@ footer section {
   text-decoration: none;
 }
 
-.servicios p {
+.parrafo-uno-servicios {
   padding-top: 40px;
   margin-left: 30px;
-  padding-bottom: 20px;
+}
+
+.parrafo-dos-servicios, .parrafo-tres-servicios {
+  padding: 0;
+  margin-left: 30px;
 }
 
 .abastecimiento {
@@ -368,15 +377,6 @@ footer section {
   justify-content: center;
   color: #26B6C6;
   margin-bottom: 40px;
-  animation: slide1 5s 1s;
-}
-@keyframes slide1 {
-  from {
-    margin-left: 100%;
-  }
-  to {
-    margin-left: 0%;
-  }
 }
 
 .consultoria {
@@ -384,29 +384,25 @@ footer section {
   justify-content: center;
   color: #26B6C6;
   margin-bottom: 50px;
-  animation: slide 5s 1s;
-}
-@keyframes slide {
-  from {
-    margin-left: 100%;
-  }
-  to {
-    margin-left: 0%;
-  }
 }
 
 .img-abastecimiento {
-  width: 100%;
+  width: 95%;
   height: 50vh;
-  margin-left: 20px;
+  margin-left: 15px;
   border-radius: 50px;
 }
 
 .img-consultoria {
-  width: 100%;
+  width: 95%;
   height: 50vh;
-  margin-left: 20px;
+  margin-left: 5px;
   border-radius: 50px;
+}
+
+.contenedor-servicios-ofrecidos {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 
 .soluciones-tecnologicas {
@@ -419,10 +415,16 @@ footer section {
 }
 
 .imagen-soluciones-tecnologicas img {
+  width: 90%;
+  height: 70vh;
   border-radius: 50px 280px 50px 280px;
 }
 
 .parrafo-abastecimiento {
+  margin-left: 20px;
+}
+
+.parrafo-extendido-abastecimiento {
   margin-left: 20px;
 }
 
@@ -483,6 +485,11 @@ footer section {
   margin-bottom: 50px;
 }
 
+.contenedor-formulario {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
 .formulario input {
   width: 420px;
   height: 40px;
@@ -502,10 +509,6 @@ footer section {
   display: block;
 }
 
-.contenedor-formulario .video-contacto {
-  display: none;
-}
-
 .boton-enviar {
   text-align: center;
   justify-content: center;
@@ -514,36 +517,166 @@ footer section {
   margin: 10px;
 }
 
-/* medias queries*/
-@media screen and (min-width: 600px) {
-  .mapas-iframe .mapa-santiago, .mapas-iframe .mapa-calama {
-    display: block;
-  }
-  .imagenes-clientes .imagen-pucobre, .imagen-anglo, .imagen-kinross {
-    display: inline;
-  }
+/* medias queries mobiles*/
+@media screen and (max-width: 600px) {
   .iconos {
-    display: inline;
+    display: none;
   }
-}
-@media screen and (max-width: 599px) {
-  .imagen-principal-clientes img {
-    width: 100%;
-  }
-  .logo {
-    width: 60%;
-  }
-}
-@media screen and (min-width: 600px) {
   .contenedor-formulario .video-contacto {
     display: inline;
-    border-radius: 25px;
   }
   .formulario input {
     width: 520px;
   }
   .formulario textarea, .boton-enviar {
     width: 520px;
+  }
+  .logo {
+    padding-left: 90px;
+  }
+  .imagenes-clientes {
+    display: block;
+    padding-left: 50px;
+  }
+  .imagenes-clientes .imagen-kinross, .imagen-anglo, .imagen-sqm {
+    display: none;
+  }
+  .imagen-principal-clientes img {
+    width: 100%;
+  }
+  .imagen-servicios-index img {
+    height: 30vh;
+  }
+  .direcciones h3 {
+    display: flex;
+    text-align: start;
+  }
+  .parrafo-extenso-manet {
+    display: none;
+  }
+  .origenes {
+    display: block;
+  }
+  .objetivos {
+    display: none;
+  }
+  .objetivos-vision {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .parrafo-uno-servicios, .parrafo-tres-servicios {
+    display: none;
+  }
+  .contenedor-servicios-ofrecidos {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding-right: 25px;
+  }
+  .abastecimiento {
+    animation: slide 5s 1s;
+  }
+  @keyframes slide {
+    from {
+      margin-left: 100%;
+    }
+    to {
+      margin-left: 0%;
+    }
+  }
+  .consultoria {
+    animation: slide 5s 1s;
+  }
+  @keyframes slide {
+    from {
+      margin-left: 100%;
+    }
+    to {
+      margin-left: 0%;
+    }
+  }
+  .img-abastecimiento {
+    width: 100%;
+    height: 30vh;
+    border-radius: 50px;
+  }
+  .img-consultoria {
+    width: 100%;
+    height: 30vh;
+    padding-left: 25px;
+    border-radius: 50px;
+  }
+  .parrafo-extendido-abastecimiento {
+    display: none;
+  }
+  .imagen-soluciones-tecnologicas img {
+    width: 100%;
+    height: 30vh;
+    border-radius: 20px 100px;
+  }
+  .contenedor-clientes {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding-right: 20px;
+  }
+  .imagen-principal-clientes img {
+    display: none;
+  }
+  .parrafo-clientes-dos {
+    display: none;
+  }
+  .casos-exito {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding-right: 20px;
+  }
+  .casos-exito img {
+    width: 100%;
+    height: 20vh;
+  }
+  .caso3 {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 0 50px 0 50px;
+  }
+  .imagen-caso3 {
+    display: none;
+  }
+  .formulario {
+    padding-left: 10px !important;
+  }
+  .formulario-contacto {
+    display: flex;
+  }
+}
+@media screen and (min-width: 720px) {
+  .imagen-principal-clientes img {
+    width: 100%;
+  }
+  .video-contacto {
+    width: 100%;
+    height: 70vh;
+    padding: 30px;
+  }
+  .mapa-santiago {
+    width: 700px;
+  }
+  .imagenes-clientes {
+    display: block;
+    padding-left: 50px;
+  }
+  .imagenes-clientes .imagen-kinross, .imagen-anglo, .imagen-sqm {
+    display: none;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .mapas-iframe .mapa-antofagasta, .mapas-iframe .mapa-calama {
+    display: flex;
+  }
+  .imagenes-clientes .imagen-kinross, .imagen-anglo, .imagen-sqm {
+    display: inline;
+  }
+  .imagen-sqm {
+    display: none;
   }
 }
 
